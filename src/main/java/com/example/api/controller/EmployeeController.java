@@ -17,11 +17,7 @@ public class EmployeeController {
 
     private final IEmployeeService employeeService;
 
-    @PostMapping("/save")
-    public String saveEmployee(@RequestBody EmployeeSaveDTO employeeSaveDTO) {
-        String id = employeeService.addEmployee(employeeSaveDTO);
-        return id;
-    }
+    // Colocar el controlador necesario para ejecutar la aplicación
 
     @GetMapping("/getAllEmployees")
     public List<EmployeeDTO> getAllEmployee() {

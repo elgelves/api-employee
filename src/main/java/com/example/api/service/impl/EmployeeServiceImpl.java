@@ -18,17 +18,7 @@ public class EmployeeServiceImpl implements IEmployeeService {
 
     private final EmployeeRepository employeeRepository;
 
-    @Override
-    public String addEmployee(EmployeeSaveDTO employeeSaveDTO) {
-
-        Employee employee = new Employee(
-                employeeSaveDTO.getEmployeeName(),
-                employeeSaveDTO.getEmployeeEmail(),
-                employeeSaveDTO.getEmployeeMobile()
-        );
-        employeeRepository.save(employee);
-        return employee.getEmployeeName();
-    }
+  // Implementar el método y corregir el error
 
     @Override
     public List<EmployeeDTO> getAllEmployees() {

@@ -1,5 +1,7 @@
 spring:
   datasource:
+    ## colocar el puerto que manejan con el gestor de bases de datos y el nombre de la base de datos que crearon para
+    ##la app, también se recomienda quitar este comentario para que sea mejor legible el codigo.
     url: jdbc:mariadb://localhost:3307/apirest
     username: root
     password: 12345

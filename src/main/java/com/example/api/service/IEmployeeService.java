@@ -8,7 +8,7 @@ import com.example.api.entity.Employee;
 import java.util.List;
 
 public interface IEmployeeService {
-    String addEmployee(EmployeeSaveDTO employeeSaveDTO);
+    //Colocar el métdo en forma de interface para que funcione
 
     List<EmployeeDTO> getAllEmployees();
 
